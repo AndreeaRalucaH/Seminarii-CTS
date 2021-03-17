@@ -40,10 +40,10 @@ public class Angajat extends Aplicant{
 	
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder("Angajat: ");
+		StringBuilder builder = new StringBuilder("Angajatul ");
 		builder.append(super.toString());
-		builder.append("Ocupatie=" + ocupatie);
-		builder.append(", Salariu=" + salariu);
+		builder.append(". Ocupatia detinuta este " + ocupatie);
+		builder.append(" avand un salariu de " + salariu + " lei.");
 		return builder.toString();
 	}
 	

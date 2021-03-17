@@ -81,18 +81,19 @@ public abstract class Aplicant{
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("nume=");
+//		builder.append("nume= ");
 		builder.append(nume);
-		builder.append(", prenume=");
+		builder.append(" ");
 		builder.append(prenume);
-		builder.append(", varsta=");
-		builder.append(varsta);
-		builder.append(", punctaj=");
-		builder.append(punctaj);
-		builder.append(", nr_proiecte=");
+		builder.append(" in varsta de ");
+		builder.append(varsta + " ani,");
+		builder.append(" a obtinut ");
+		builder.append(punctaj + " de puncte.");
+		builder.append(" Numarul proiectelor realizate a fost ");
 		builder.append(nr_proiecte);
-		builder.append(", denumireProiect=");
+		builder.append(" cu denumirea: ");
 		builder.append(Arrays.toString(denumireProiect));
+	
 		return builder.toString();
 	}
 	
