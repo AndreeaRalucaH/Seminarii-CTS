@@ -34,7 +34,7 @@ public class BrokerTranzactieLazy {
 	}
 	
 	
-	public static BrokerTranzactieLazy getInstance(String name, int vechime, int tranzactii) {
+	public static synchronized BrokerTranzactieLazy getInstance(String name, int vechime, int tranzactii) {
 		if(brokerLazy == null) {
 			brokerLazy = new BrokerTranzactieLazy(name, vechime, tranzactii);
 		}

@@ -2,6 +2,7 @@ package ro.ase.cts.program;
 
 import ro.ase.cts.clase.BrokerTranzactie;
 import ro.ase.cts.clase.BrokerTranzactieLazy;
+import ro.ase.cts.clase.Inghetata;
 
 public class Main {
 
@@ -24,6 +25,12 @@ public class Main {
 		BrokerTranzactieLazy brokerLazy2 = BrokerTranzactieLazy.getInstance("Vasile", 20, 350);
 		System.out.println(brokerLazy1);
 		System.out.println(brokerLazy2);
+		
+		Inghetata inghetata1 = Inghetata.getInstance(100, "Corso", 25.3);
+		Inghetata inghetata2 = Inghetata.getInstance(150, "KitKat", 10.5);
+		System.out.println(inghetata1);
+		System.out.println(inghetata2);
+		
 		
 
 	}
