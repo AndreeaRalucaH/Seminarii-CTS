@@ -1,4 +1,4 @@
-package ro.ase.cts.adapter.clase;
+package ro.ase.cts.adapterObiecte.clase;
 
 public interface CreditAbstract {
 	void OferaCredit(float suma);

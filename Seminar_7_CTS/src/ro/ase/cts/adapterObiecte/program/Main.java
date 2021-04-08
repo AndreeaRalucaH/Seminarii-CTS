@@ -1,9 +1,9 @@
-package ro.ase.cts.adapter.program;
+package ro.ase.cts.adapterObiecte.program;
 
 
-import ro.ase.cts.adapter.clase.AdaptorCreditObiecte;
-import ro.ase.cts.adapter.clase.CreditAbstract;
-import ro.ase.cts.adapter.clase.Leasing;
+import ro.ase.cts.adapterObiecte.clase.AdaptorCreditObiecte;
+import ro.ase.cts.adapterObiecte.clase.CreditAbstract;
+import ro.ase.cts.adapterObiecte.clase.Leasing;
 
 public class Main {
 
